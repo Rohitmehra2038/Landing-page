@@ -1,0 +1,265 @@
+
+.landing-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing-page .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1479px;
+  height: 1024px;
+}
+
+.landing-page .overlap {
+  position: relative;
+  width: 1714px;
+  height: 1024px;
+}
+
+.landing-page .overlap-group {
+  position: absolute;
+  width: 1714px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .frame {
+  position: absolute;
+  width: 718px;
+  height: 1024px;
+  top: 0;
+  left: 996px;
+}
+
+.landing-page .div {
+  position: relative;
+  width: 743px;
+  height: 1067px;
+  left: 3px;
+}
+
+.landing-page .frame-2 {
+  position: absolute;
+  width: 480px;
+  height: 720px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/frame-3.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.landing-page .frame-3 {
+  position: absolute;
+  width: 506px;
+  height: 707px;
+  top: 360px;
+  left: 237px;
+  border: 20px solid;
+  border-color: #ffffff;
+  background-image: url(./img/frame-4.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.landing-page .header {
+  display: flex;
+  flex-direction: column;
+  width: 1479px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 0px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.landing-page .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 56px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.landing-page .group {
+  position: relative;
+  width: 80.08px;
+  height: 25.09px;
+}
+
+.landing-page .rectangle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 7px;
+  left: 3px;
+  background-color: #ff0000;
+  transform: rotate(-60deg);
+}
+
+.landing-page .ellipse {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 7px;
+  left: 30px;
+  background-color: #0028ff;
+  border-radius: 7.5px;
+}
+
+.landing-page .polygon {
+  position: absolute;
+  width: 16px;
+  height: 14px;
+  top: 8px;
+  left: 60px;
+}
+
+.landing-page .navbar {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.landing-page .nav-items {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0028ff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #868686;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 32px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #0028ff;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.landing-page .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #0028ff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .line {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.landing-page .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 932px;
+  align-items: flex-start;
+  gap: 16px;
+  position: absolute;
+  top: 200px;
+  left: 54px;
+}
+
+.landing-page .text {
+  display: flex;
+  flex-direction: column;
+  height: 339px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.landing-page .title {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Merriweather-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .body {
+  position: relative;
+  align-self: stretch;
+  font-family: "Merriweather-Regular", Helvetica;
+  font-weight: 400;
+  color: #868686;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .buttton {
+  display: inline-flex;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 42px;
+  position: relative;
+  background-color: #0028ff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.landing-page .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
